@@ -4,7 +4,7 @@
 import mysql.connector
 import datetime
 
-connx = mysql.connector.connect(user="root",password="kali",host="127.0.0.1",database="todolist")
+connx = mysql.connector.connect(user="root",password="kali",host="127.0.0.1",database="todolist") # untuk user dan passwordnya bisa diganti sesuai dengan sql username dan password kalian masing masing
 
 cursor = connx.cursor()
 
